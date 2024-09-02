@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: $black;
+  background: $white;
+  font-family: $font-family;
+  font-size: $font-size-medium;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

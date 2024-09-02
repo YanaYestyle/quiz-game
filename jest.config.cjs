@@ -3,9 +3,10 @@ module.exports = {
     transform: {
         "^.+\\.vue$": "@vue/vue3-jest",
         "^.+\\js$": "babel-jest",
+        "^.+\\.(ts|tsx)?$": "ts-jest"
     },
     testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts)$",
-    moduleFileExtensions: ["vue", "js"],
+    moduleFileExtensions: ['js', 'ts', 'vue', 'json'],
     moduleNameMapper: {
         "^@/(.*)$": "<rootDir>/src/$1",
     },
