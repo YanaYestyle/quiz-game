@@ -51,6 +51,7 @@ const goToHome = () => {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 
     h3 {
         padding-top: 20px;
